@@ -5,7 +5,8 @@
     "outDir": "./dist",
     "declaration": true,
     "removeComments": false,
-    "skipDefaultLibCheck": true
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
