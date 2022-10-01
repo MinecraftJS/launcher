@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "@minecraft-js/launcher",
   "version": "1.0.0",
-  "description": "todo: change",
+  "description": "Makes creating Minecraft launchers in JavaScript an easy task",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,14 +14,14 @@
   "keywords": [
     "minecraftjs"
   ],
-  "author": "todo: change",
+  "author": "RichardDorian",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MinecraftJS/template/issues"
   },
   "homepage": "https://github.com/MinecraftJS/template#readme",
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^18.7.23",
     "prettier": "^2.7.1",
     "typescript": "^4.8.3"
   },
@@ -30,5 +30,8 @@
   ],
   "engines": {
     "node": ">=18.x"
+  },
+  "dependencies": {
+    "node-downloader-helper": "^2.1.4"
   }
 }

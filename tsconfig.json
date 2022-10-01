@@ -4,7 +4,8 @@
     "module": "CommonJS",
     "outDir": "./dist",
     "declaration": true,
-    "removeComments": false
+    "removeComments": false,
+    "skipDefaultLibCheck": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
